@@ -29,17 +29,20 @@ h1{
     text-transform: uppercase;
 }
 #wrapper {
-    position:absolute;
-    z-index:1;
-    top:45px; bottom:48px; left:0;
-    width:100%;
-    overflow:auto;
+	position: absolute;
+	z-index: -1;
+	top: 45px;
+	bottom: 48px;
+	left: 0;
+	width: 100%;
+	overflow: auto;
 }
 #main-content {
-    position:absolute;
-    z-index:1;
-    width:100%;
-    padding:0;
+	position: absolute;
+	z-index: 33;
+	width: 100%;
+	padding: 0;
+	color: #FFF;
 }
 
 #tab-bar{
@@ -72,12 +75,13 @@ h1{
     position:relative;
 }
 /* Update this style */
-#pages > div {
-    display: none;
-    position: absolute;
-    top:0;left:0;
-    width:100%;
-}
+/* #pages > div {
+	display: none;
+	position: absolute;
+	top: 2px;
+	left: -1px;
+	width: 100%;
+} */
 .in, .out {
     -webkit-animation-timing-function: ease-in-out;
     -webkit-animation-duration: 400ms;
