@@ -6,14 +6,14 @@
         id        = "com.phonegap.hello-world"
         version   = "1.0.0">
 
-    <name>Massey & IPC Bus Schedule</name>
+    <name>My Indian Dream </name>
 
     <description>
-        Hello World sample application that responds to the deviceready event.
+        This decribes my mobile application and how it works ... 
     </description>
 
     <author href="http://phonegap.com" email="support@phonegap.com">
-        John NZ Silva 
+        Chathura "JOHN" Silva
     </author>
 
     <!--
