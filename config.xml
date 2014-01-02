@@ -3,18 +3,17 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.phonegap.massey-ipc-bus"
+        id        = "com.phonegap.hello-world"
         version   = "1.0.0">
 
     <name>Massey & IPC Bus Schedule</name>
 
     <description>
-        This is a mobile web application created to help Massey and IPC students
-		to find correct bus schedule time. Bus service is done Horizons. 
+        Hello World sample application that responds to the deviceready event.
     </description>
 
     <author href="http://phonegap.com" email="support@phonegap.com">
-        John Silva 
+        John NZ Silva 
     </author>
 
     <!--
